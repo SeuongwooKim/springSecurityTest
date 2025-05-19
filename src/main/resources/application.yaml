@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springSecurityTest
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://${MARIA_HOST:localhost}:${MARIA_PORT:3306}/argosSearch?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: WB12345!@
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+secret-key: test
