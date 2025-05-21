@@ -3,7 +3,6 @@ package org.example.springsecurity.dto;
 import org.example.springsecurity.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Collection;
